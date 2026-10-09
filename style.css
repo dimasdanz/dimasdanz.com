@@ -1,8 +1,3 @@
-/*!
- * https://dimasdanz.com/pay
- * Do I need a copy-right?
- */
-
 :root {
   color-scheme: dark;
   --bg: #0d0f12;
@@ -37,6 +32,7 @@ body {
 
 .page {
   display: flex;
+  align-items: center;
   justify-content: center;
   min-height: 100dvh;
   padding: 2rem 1.5rem;
@@ -62,18 +58,13 @@ h1 {
   color: var(--name);
 }
 
-h4 {
-  margin: 0 0 1rem;
-  font-size: 1.0625rem;
-  font-weight: 400;
+.tagline {
   line-height: 1.5;
-  color: var(--text);
 }
 
-h4 span {
+.tagline span {
   display: inline-block;
   white-space: nowrap;
-  font-weight: 400;
   font-style: italic;
   text-decoration: line-through;
   font-size: 0.8125rem;
