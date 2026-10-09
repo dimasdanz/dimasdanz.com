@@ -59,7 +59,12 @@ h1 {
 }
 
 .tagline {
+  margin-bottom: 0.25rem;
   line-height: 1.5;
+}
+
+.hobby {
+  margin-bottom: 1.25rem;
 }
 
 .tagline span {
@@ -96,6 +101,10 @@ a:focus-visible {
 
 .contact {
   margin-bottom: 0;
+}
+
+.with-love {
+  margin-top: 3rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
